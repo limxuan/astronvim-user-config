@@ -5,6 +5,7 @@ return {
 	{ import = "astrocommunity.pack.typescript-deno" },
 	{ import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.motion.nvim-surround" },
+	{ import = "astrocommunity.pack.markdown" },
 	{
 		"sigmasd/deno-nvim",
 		-- HACK: This disables tsserver if denols is attached.
