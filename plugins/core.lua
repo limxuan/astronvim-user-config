@@ -1,7 +1,7 @@
 return {
-  {
-    "max397574/better-escape.nvim",
-    event = "InsertCharPre",
-    opts = { timeout = 300, mapping = { "kj" } },
-  },
+	{
+		"max397574/better-escape.nvim",
+		event = "InsertCharPre",
+		opts = { timeout = 300, mapping = { "kj" } },
+	},
 }
