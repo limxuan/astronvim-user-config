@@ -1,4 +1,5 @@
 return {
+	colorscheme = "astrotheme",
 	lsp = {
 		formatting = {
 			format_on_save = {

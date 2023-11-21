@@ -4,6 +4,7 @@ return {
 	{ import = "astrocommunity.pack.typescript" },
 	{ import = "astrocommunity.pack.typescript-deno" },
 	{ import = "astrocommunity.colorscheme.catppuccin" },
+	{ import = "astrocommunity.colorscheme.rose-pine" },
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
