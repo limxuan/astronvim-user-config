@@ -9,6 +9,34 @@ return {
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 	{
+		"folke/noice.nvim",
+		event = "VeryLazy",
+		opts = {
+			lsp = {
+				hover = {
+					enabled = false,
+				},
+				signature = {
+					enabled = false,
+				},
+			},
+			cmdline = {
+				view = "cmdline",
+				format = {
+					search_down = {
+						view = "cmdline",
+					},
+					search_up = {
+						view = "cmdline",
+					},
+				},
+			},
+		},
+		dependencies = {
+			"MunifTanjim/nui.nvim",
+		},
+	},
+	{
 		"sigmasd/deno-nvim",
 		-- HACK: This disables tsserver if denols is attached.
 		-- A solution that only enables the required lsp should replace it.
