@@ -8,5 +8,11 @@ return {
 		["+"] = { "<C-a>", desc = "Increment25" },
 		["-"] = { "<C-x>", desc = "Decrement" },
 		["<C-a>"] = { "gg<S-v>G", desc = "Select all" },
+		["<C-d>"] = { "<C-d>zz" },
+		["<C-u>"] = { "<C-u>zz" },
+	},
+	v = {
+		["J"] = { ":m '>+1<CR>gv=gv", desc = "Move selected line below" },
+		["K"] = { ":m '<-2<CR>gv=gv", desc = "Move selected line above" },
 	},
 }
