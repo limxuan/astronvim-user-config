@@ -3,6 +3,7 @@ return {
 	{ import = "astrocommunity.pack.tailwindcss" },
 	{ import = "astrocommunity.pack.typescript" },
 	{ import = "astrocommunity.pack.typescript-deno" },
+	{ import = "astrocommunity.pack.go" },
 	{ import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.colorscheme.rose-pine" },
 	{ import = "astrocommunity.motion.nvim-surround" },
