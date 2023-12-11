@@ -9,34 +9,10 @@ return {
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-	{
-		"folke/noice.nvim",
-		event = "VeryLazy",
-		opts = {
-			lsp = {
-				hover = {
-					enabled = false,
-				},
-				signature = {
-					enabled = false,
-				},
-			},
-			cmdline = {
-				view = "cmdline",
-				format = {
-					search_down = {
-						view = "cmdline",
-					},
-					search_up = {
-						view = "cmdline",
-					},
-				},
-			},
-		},
-		dependencies = {
-			"MunifTanjim/nui.nvim",
-		},
-	},
+	{ import = "astrocommunity.motion.leap-nvim" },
+	{ import = "astrocommunity.motion.harpoon" },
+	{ import = "astrocommunity.file-explorer.mini-files" },
+	{ import = "astrocommunity.lsp.lsp-signature-nvim" },
 	{
 		"sigmasd/deno-nvim",
 		-- HACK: This disables tsserver if denols is attached.
