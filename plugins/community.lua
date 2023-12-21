@@ -10,9 +10,9 @@ return {
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 	{ import = "astrocommunity.motion.leap-nvim" },
-	{ import = "astrocommunity.file-explorer.oil-nvim" },
 	{ import = "astrocommunity.lsp.lsp-signature-nvim" },
 	{ import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
+	{ import = "astrocommunity.syntax.vim-easy-align" },
 	{
 		"sigmasd/deno-nvim",
 		-- HACK: This disables tsserver if denols is attached.

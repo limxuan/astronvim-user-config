@@ -15,4 +15,7 @@ return {
 		["J"] = { ":m '>+1<CR>gv=gv", desc = "Move selected line below" },
 		["K"] = { ":m '<-2<CR>gv=gv", desc = "Move selected line above" },
 	},
+	i = {
+		["<Tab>"] = {},
+	},
 }

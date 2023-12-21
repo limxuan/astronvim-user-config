@@ -12,4 +12,12 @@ return {
 			return opts
 		end,
 	},
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+		enabled = false,
+	},
+	{
+		"akinsho/toggleterm.nvim",
+		enabled = false,
+	},
 }
