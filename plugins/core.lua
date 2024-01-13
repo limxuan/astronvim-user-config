@@ -18,6 +18,6 @@ return {
 	},
 	{
 		"akinsho/toggleterm.nvim",
-		enabled = false,
+		enabled = true,
 	},
 }
