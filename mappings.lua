@@ -12,6 +12,7 @@ return {
 		["<C-a>"] = { "gg<S-v>G", desc = "Select all" },
 		["<C-d>"] = { "<C-d>zz" },
 		["<C-u>"] = { "<C-u>zz" },
+		["Q"] = {"@qj"}
 	},
 	v = {
 		["J"] = { ":m '>+1<CR>gv=gv", desc = "Move selected line below" },
@@ -20,4 +21,7 @@ return {
 	i = {
 		["<Tab>"] = {},
 	},
+	x = {
+		["Q"] = {"<cmd>norm @q<cr>"}
+	}
 }
